@@ -7,6 +7,7 @@ body {
   font-size: 17px;
   padding-bottom: 80px;
 }
+
 h2 {
   font-size: 25px;
   margin: 0;
@@ -45,6 +46,14 @@ h2 {
   flex-direction: column;
   padding: 20px;
   gap: 10px;
+  position: relative;
+}
+.bookmark {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 25px;
+  top: -15px;
 }
 /*   .questions img {
     padding: 0 20px;
@@ -78,6 +87,17 @@ h2 {
   color: #ffffff;
 }
 
+.button {
+  padding: 8px;
+  background: linear-gradient(180deg, #666666, #4b4b4b);
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+.button:hover {
+  background: greenyellow;
+}
+
 /*   .options:hover {
     background: #00ff4c;
   } */
@@ -98,7 +118,6 @@ h2 {
 .icon {
   width: 32px;
   height: 32px;
-  color: linear-gradient(-180deg, rgb(87, 252, 123), rgb(32, 97, 38));
 }
 
 @media (min-width: 600px) {
