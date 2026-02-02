@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  border-radius: 25px;
 }
 
 body {
@@ -19,13 +20,13 @@ body {
 }
 
 .header {
-  background: linear-gradient(45deg, rgb(70, 166, 211), blue);
+  background: linear-gradient(180deg, rgb(70, 166, 211), blue);
   text-align: center;
   color: #ffffff;
 }
 
 .questions {
-  background: linear-gradient(-45deg, rgb(70, 166, 211), white);
+  background: linear-gradient(180deg, rgb(70, 166, 211), rgb(43, 107, 136));
   text-align: center;
   color: #ffffff;
   grid-area: 2;
@@ -43,17 +44,19 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: #45df73;
+  background: linear-gradient(180deg, #666666, #4b4b4b);
+
   color: #ffffff;
 }
 
 .menu li:hover {
-  background-color: #30a553;
+  background-color: #4b4b4b;
 }
 
 .content {
