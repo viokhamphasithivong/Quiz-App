@@ -98,9 +98,9 @@ h2 {
   background: greenyellow;
 }
 
-/*   .options:hover {
-    background: #00ff4c;
-  } */
+.options:hover {
+  background: linear-gradient(180deg, #464646, #292929);
+}
 
 .footer {
   background: linear-gradient(180deg, rgb(70, 166, 211), rgb(43, 107, 136));
@@ -120,17 +120,31 @@ h2 {
   height: 32px;
 }
 
-@media (min-width: 600px) {
-  .header {
-    grid-area: 1;
+@media (min-width: 900px) {
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
   }
-  .questions {
-    grid-area: 2;
+}
+@media (min-width: 1200px) {
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
   }
-  .menu {
-    grid-area: 3;
+}
+@media (min-width: 1536px) {
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
   }
-  .footer {
-    grid-area: 4;
+}
+@media (min-width: 2400px) {
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30%;
   }
 }
