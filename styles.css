@@ -64,13 +64,14 @@ h2 {
 
 .menu {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   margin: 0;
 
   text-align: center;
   gap: 10px;
   padding: 20px 0;
+  justify-content: center;
+  align-content: center;
 }
 
 /*  .menu ul {
@@ -81,7 +82,7 @@ h2 {
   } */
 
 .options {
-  padding: 8px;
+  padding: 25px;
   background: linear-gradient(180deg, #666666, #4b4b4b);
   border-radius: 25px;
   color: #ffffff;
